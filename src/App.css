@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --color-text-white: #fff;
+  --color-text-gray: #d1d1d1;
+  --color-text-gray-2: #525252;
+  --color-text-black: #000;
+  --color-1: #b10dc7;
+  --color-2: #eb5814;
+  --color-3: #426e93;
+  --color-4: #0ce864;
+  --color-5: #fff80d;
+  --color-6: #f1f1f196;
+  --font-1: "Lato", sans-serif;
+  --shadow-1: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  --linear-1: linear-gradient(
+    to right,
+    var(--color-3),
+    #4481eb,
+    #04befe,
+    #3f86ed
+  );
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-1);
+}
+
+body {
+  position: relative;
+}
+
+.container-bg {
+  /* background: url("./assets/imgs/background/bg.jpg"),
+    linear-gradient(to top, rgba(0, 0, 0, 0.769), rgba(0, 0, 0, 0.769));
+  background-color: #00000034;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  width: 100%;
+  height: 100vh;
+  /* opacity: 0.5; */
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}

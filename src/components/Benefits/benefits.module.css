@@ -1,0 +1,33 @@
+.container {
+  width: 1400px;
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+  background: url("../../assets/imgs/background/beagle.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 2rem;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-2);
+  border-radius: 50%;
+}
+
+.box h3 {
+  font-size: 0.9rem;
+  text-align: center;
+  color: var(--color-text-white);
+}

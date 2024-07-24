@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0 2rem 0;
+}
+
+.container h2 {
+  color: var(--color-3);
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+@media (max-width: 480px) {
+  .container h2 {
+    font-size: 2rem;
+  }
+}
