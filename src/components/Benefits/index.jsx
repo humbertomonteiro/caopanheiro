@@ -1,37 +1,54 @@
 import styles from "./benefits.module.css";
 import Title from "../Title";
+import beagle from "../../assets/imgs/background/beagle-bg.jpg";
+import { IoPaw } from "react-icons/io5";
+import ButtonCall from "../ButtonCall";
 
 export default function Benefits() {
   return (
     <div className={styles.container}>
       <Title text="Benefícios" />
       <div className={styles.content}>
-        <div className={styles.box}>
-          <h3>Estimulo mental e sensorial</h3>
-        </div>
-        <div className={styles.box}>
-          <h3>Previne depressão</h3>
-        </div>
-        <div className={styles.box}>
-          <h3>Previne obesidade</h3>
-        </div>
-        <div className={styles.box}>
-          <h3>Previne problemas nas articalações</h3>
-        </div>
-        <div className={styles.box}>
-          <h3>Auxilia na interação social</h3>
-        </div>
-        <div className={styles.box}>
-          <h3>Reduz problemas cardiacos</h3>
-        </div>
-        <div className={styles.box}>
-          <h3>Libera serotonina e deixa o cão feliz</h3>
-        </div>
-        <div className={styles.box}>
-          <h3>Baixo nível de estresse</h3>
-        </div>
-        <div className={styles.box}>
-          <h3>Contribui para longevidade</h3>
+        <img src={beagle} alt="" />
+        <div className={styles.lists}>
+          <ul>
+            <li>
+              <IoPaw /> Estimulo mental e sensorial
+            </li>
+            <li>
+              <IoPaw /> Previne depressão
+            </li>
+            <li>
+              <IoPaw /> Previne obesidade
+            </li>
+            <li>
+              <IoPaw /> Previne problemas nas articalações
+            </li>
+            <li>
+              <IoPaw /> Auxilia na interação social
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <IoPaw /> Reduz problemas cardiacos
+            </li>
+            <li>
+              <IoPaw /> Libera serotonina e deixa o cão feliz
+            </li>
+            <li>
+              <IoPaw /> Baixo nível de estresse
+            </li>
+            <li>
+              <IoPaw /> Contribui para longevidade
+            </li>
+          </ul>
+          <div className={styles.buttons}>
+            <ButtonCall
+              type="link"
+              link="www.google.com"
+              text="Agende uma visita!"
+            />
+          </div>
         </div>
       </div>
     </div>

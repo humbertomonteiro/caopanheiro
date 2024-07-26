@@ -1,6 +1,26 @@
 .button {
+  background-color: var(--color-3);
+  color: var(--color-text-white);
+  padding: 0.5rem 2rem;
+  border-radius: 01rem;
+  transition: 0.5s all ease;
+}
+
+.button:hover {
+  transform: scale(1.03);
+}
+
+.button span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* .button {
   position: relative;
   color: var(--color-text-white);
+  width: fit-content;
   height: 55px;
   display: flex;
   justify-content: center;
@@ -15,7 +35,7 @@
   left: 0;
   display: block;
   border-radius: 28px;
-  background: var(--color-1);
+  background: var(--color-2);
   width: 56px;
   height: 56px;
   transition: all 0.3s ease;
@@ -43,11 +63,11 @@
 }
 .button:hover:before {
   width: 100%;
-  background: var(--color-1);
+  background: var(--color-2);
 }
 .button:hover svg {
   transform: translateX(0);
 }
 .button:active {
   transform: scale(0.96);
-}
+} */

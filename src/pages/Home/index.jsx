@@ -4,11 +4,13 @@ import Header from "../../components/Header";
 import dog from "../../assets/imgs/dogs/dog-glass.jpg";
 
 import ButtonCall from "../../components/ButtonCall";
-import ButtonSimple from "../../components/ButtonSimple";
 import BoxesInfos from "../../components/BoxesInfo";
 import Range from "../../components/Range";
 import Location from "../../components/Location";
 import Benefits from "../../components/Benefits";
+import Footer from "../../components/Footer";
+
+import { LuBone } from "react-icons/lu";
 
 export default function Home() {
   return (
@@ -23,6 +25,11 @@ export default function Home() {
                 Cuidado, Carinho e Diversão para seu Cãozinho, Todos os Dias.
               </p>
             </div>
+            <div className={styles.bone}>
+              <LuBone />
+              <LuBone />
+              <LuBone />
+            </div>
             <div className={styles.buttons}>
               <ButtonCall
                 type="link"
@@ -30,7 +37,7 @@ export default function Home() {
                 text="Agende uma visita!"
               />
               {/* <ButtonSpin type="link" link="www.google.com" text="Instagram" /> */}
-              <ButtonSimple type="link" link="#infos" text="Continuar" />
+              {/* <ButtonSimple type="link" link="#infos" text="Continuar" /> */}
             </div>
           </div>
           <img src={dog} alt="pug" />
@@ -40,6 +47,7 @@ export default function Home() {
       <Range />
       <Location />
       <Benefits />
+      <Footer />
     </>
   );
 }

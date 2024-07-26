@@ -6,6 +6,7 @@ import Title from "../Title";
 import SlidesDrag from "../SlidesDrag";
 
 import WidthWindow from "../WidthWindow";
+import ButtonSimple from "../ButtonSimple";
 
 function Box1() {
   return (
@@ -19,6 +20,9 @@ function Box1() {
           Câmeras de segurança e supervisão constante para garantir a segurança
           do seu pet.
         </p>
+        <div className={styles.buttons}>
+          <ButtonSimple type={"link"} link={""} text={"LER MAIS"} />
+        </div>
       </div>
     </div>
   );
@@ -35,6 +39,9 @@ function Box2() {
           Nosso espaço é projetado para segurança e diversão, com áreas
           específicas para diferentes cães.
         </p>
+        <div className={styles.buttons}>
+          <ButtonSimple type={"link"} link={""} text={"LER MAIS"} />
+        </div>
       </div>
     </div>
   );
@@ -51,6 +58,9 @@ function Box3() {
           Nossa equipe é formada por profissionais experientes e apaixonados por
           animais.
         </p>
+        <div className={styles.buttons}>
+          <ButtonSimple type={"link"} link={""} text={"LER MAIS"} />
+        </div>
       </div>
     </div>
   );

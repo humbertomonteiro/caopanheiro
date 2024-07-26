@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .content {
@@ -17,7 +17,7 @@
 
 .location {
   width: 30%;
-  min-width: 320px;
+  min-width: 300px;
   max-width: 45%;
   background-color: var(--color-6);
   border-radius: 0.5rem;

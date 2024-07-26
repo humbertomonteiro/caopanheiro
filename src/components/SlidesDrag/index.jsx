@@ -14,9 +14,6 @@ export default function SlidesDrag({ array }) {
       slidesPerView={"auto"}
       centeredSlides={true}
       spaceBetween={30}
-      pagination={{
-        clickable: true,
-      }}
       modules={[Pagination]}
       className="mySwiper"
     >
