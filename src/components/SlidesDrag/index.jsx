@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import { Pagination } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 
 export default function SlidesDrag({ array }) {
   return (
@@ -14,7 +14,11 @@ export default function SlidesDrag({ array }) {
       slidesPerView={"auto"}
       centeredSlides={true}
       spaceBetween={30}
-      modules={[Pagination]}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+      modules={[Pagination, Autoplay]}
       className="mySwiper"
     >
       {array.map((item, index) => (

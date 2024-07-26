@@ -58,7 +58,7 @@ export default function Location() {
   return (
     <div className={styles.container}>
       <Title text="Localizações" />
-      <div className={styles.content}>
+      <div className={styles.content} data-aos="zoom-in">
         {WidthWindow() >= 1045 ? (
           <>
             <Location1 />

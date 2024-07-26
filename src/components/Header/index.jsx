@@ -46,7 +46,7 @@ export default function Header() {
             ) : (
               <>
                 <IoClose />
-                <div className={styles.navMobile}>
+                <div className={styles.navMobile} data-aos="fade-left">
                   <nav className={styles.nav}>
                     <a href="">Home</a>
                     <a href="">Sobre nós</a>

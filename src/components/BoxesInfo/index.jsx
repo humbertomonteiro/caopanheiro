@@ -70,7 +70,7 @@ export default function BoxesInfos() {
   return (
     <div id="infos" className={styles.container}>
       <Title text="Nossos Serviços" />
-      <div className={styles.boxes}>
+      <div className={styles.boxes} data-aos="zoom-in">
         {WidthWindow() >= 1045 ? (
           <>
             <Box1 />

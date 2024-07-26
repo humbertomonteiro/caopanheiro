@@ -6,7 +6,7 @@ import { IoPaw } from "react-icons/io5";
 
 export default function Range() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-aos="zoom-in">
       <div className={styles.text}>
         <h2>
           Nosso Hotel para Cães - <span>Cãopanheiro</span>.

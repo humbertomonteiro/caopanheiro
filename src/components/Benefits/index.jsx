@@ -11,7 +11,7 @@ export default function Benefits() {
       <div className={styles.content}>
         <img src={beagle} alt="" />
         <div className={styles.lists}>
-          <ul>
+          <ul data-aos="zoom-in">
             <li>
               <IoPaw /> Estimulo mental e sensorial
             </li>
@@ -28,7 +28,7 @@ export default function Benefits() {
               <IoPaw /> Auxilia na interação social
             </li>
           </ul>
-          <ul>
+          <ul data-aos="zoom-in">
             <li>
               <IoPaw /> Reduz problemas cardiacos
             </li>
@@ -42,7 +42,7 @@ export default function Benefits() {
               <IoPaw /> Contribui para longevidade
             </li>
           </ul>
-          <div className={styles.buttons}>
+          <div className={styles.buttons} data-aos="zoom-in">
             <ButtonCall
               type="link"
               link="www.google.com"

@@ -15,7 +15,7 @@ import { LuBone } from "react-icons/lu";
 export default function Home() {
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container} data-aos="fade-down">
         <Header />
         <div className={styles.containerMain}>
           <div className={styles.content}>
